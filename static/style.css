@@ -1,0 +1,18 @@
+body{
+    background-color: aqua;
+    display: grid;
+    text-align: center;
+}
+.profile{
+    display: inline-block;
+    border: 2px solid green;
+    border-radius: 10px;
+    margin: 4px;
+}
+.adminForm{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    margin: 5px;
+}

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Newsletter
+        style
+            include ../static/style.css
+        
+    body    
+        h1 Subscribe to Newsletter
+        form(action="/sucess", method="post" content-type="application/json")
+            input(type="text", name="name" required placeholder="Enter your name here") 
+            input(type="email", name="email" required placeholder="Enter your Email id") 
+            input(type="submit" placeholder="Subscribe")
