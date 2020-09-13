@@ -16,7 +16,7 @@ npm install
 * After making all these setup run `npm start` in your terminal and your server is up and running <br>
 
 #### NOTE
-**make sure you turn `ON` this ![Click](static\screenshot.PNG) for sending the mails**
+**make sure you turn `ON` this ![](screenshot.PNG) for sending the mails**
 
 --------------------------
 ### Impovements required
