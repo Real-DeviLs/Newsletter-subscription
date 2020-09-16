@@ -13,7 +13,8 @@ npm install
 * Set up the [`.env`](.env) file according to format given in [`.env.sample`](.env.sample)
 * Use the mongoDb locally or the remote mongoDb atlas [link](https://www.mongodb.com/try)
 * Make a cluster of free tire and fill all the credentias in the `.env` file
-* After making all these setup run `npm start` in your terminal and your server is up and running <br>
+* After making all these setup run `npm start` in your terminal and your server is up and running 
+* The server is up and running on `http://127.0.0.1:3000`or `http://localhost:3000` <br>
 
 #### NOTE
 **make sure you turn `ON` this ![](screenshot.PNG) for sending the mails**
