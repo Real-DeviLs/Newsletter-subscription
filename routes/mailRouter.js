@@ -10,7 +10,7 @@ router.get('/',(req,res)=>{
 });
 
 router.get('/admin',async(req,res)=>{
-    if(req.query.pass=="adminonly"){
+    if(req.query.pass=="123"){
 
         try {
             const emailList=await Email.find({},{_id:0,__v:0});
